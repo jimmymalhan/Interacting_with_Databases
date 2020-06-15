@@ -48,13 +48,8 @@ def main():
     #create_tables()
     #insert("Orange",10,15)
     #delete("Orange") # deleting rows where item = Orange
-    update(20,15.0,'Apple')
+    #update(20,15.0,'Apple')
     print(view())
 
 if __name__ == '__main__':
     main()
-    
-#update(11,6,"Coffee Cup") #updating quanity and price values for the argument ?
-#delete("Wine Glass") # Deleting Wine Glass from the row for the argument ?
-#print(view())
-#insert("Coffee Cup",10,5) # Inserting data for the argument `?`
