@@ -14,7 +14,6 @@ def create_tables():
 def insert(item,quantity,price):
     con=psycopg2.connect("dbname='database1' user='postgres' password='postgres123' host='localhost' port='5432'")
     cur=con.cursor()
-    #cur.execute("INSERT INTO store VALUES('%s','%s','%s')" % (item,quantity,price)) # not advisable
     cur.execute("INSERT INTO store VALUES(%s,%s,%s)", (item,quantity,price))
     con.commit()
     con.close()
