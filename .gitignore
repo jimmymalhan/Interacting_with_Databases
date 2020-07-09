@@ -1,2 +1,13 @@
 database_credentials.txt
 .vscode/settings.json
+.idea/aws.xml
+.idea/Interacting_with_Databases.iml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/misc.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/.gitignore
+.gitignore
+localcomputer_database_credentials.txt
+sqlite db/lite.db
